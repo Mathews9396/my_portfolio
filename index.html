@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dan MacKinley - Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js"></script>
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <!-- Name and contact details -->
+        <div class="profile_name">
+          Dan MacKinley
+          <div class="contact_info">
+            <img
+              src="html_finalprojimages/envelope.png"
+              alt="https://icons8.com/icon/124377/circled-envelope"
+            />
+            danny@gmail.com
+          </div>
+          <div style="clear: both"></div>
+          <div class="contact_info">
+            <img
+              src="html_finalprojimages/phone.png"
+              alt="https://icons8.com/icon/124377/circled-envelope"
+            />
+            +91-9496701290
+          </div>
+        </div>
+        <!-- Menu list -->
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendation</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="./man working on a laptop.gif" class="profile_image" />
+      </div>
+
+      <div>
+        <h1>
+          Hi, I'm Dan MacKinley!
+          <img src="html_finalprojimages/waving-hand.png" width="60px" />
+        </h1>
+        <p>
+          I am a Software Engineer with 4.5 years of experience specializing in
+          backend development using JavaScript (Node.js). I have worked on both
+          relation and non-relational databases, managed code using version
+          control systems such as Github and Gtilab. I have proven my ability to
+          enhance system efficiency (e.g., improving data retrieval by 50% and
+          execution speed by 75% for a real time whiteboard application).
+          Passionate about writing clean, and reusable code to create meaningful
+          software solutions.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear: both"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg" />
+          <h6>JavaScript</h6>
+          <p>4.5 years experience</p>
+        </div>
+
+        <div class="skill">
+          <img src="html_finalprojimages/node.png" />
+          <h6>Node.js</h6>
+          <p>4.5 years experience</p>
+        </div>
+
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png" />
+          <h6>HTML</h6>
+          <p>1 years experience</p>
+        </div>
+
+        <div class="skill">
+          <img src="html_finalprojimages/CSS3.png" />
+          <h6>CSS3</h6>
+          <p>1 years experience</p>
+        </div>
+
+        <div class="skill">
+          <img src="html_finalprojimages/express.png" />
+          <h6>Express.js</h6>
+          <p>4 years experience</p>
+        </div>
+
+        <div class="skill">
+          <img src="html_finalprojimages/socket.io.png" />
+          <h6>Socket.io</h6>
+          <p>3 years experience</p>
+        </div>
+
+        <div class="skill">
+          <img src="html_finalprojimages/postgreSQL.png" />
+          <h6>PostgreSQL</h6>
+          <p>3 years experience</p>
+        </div>
+
+        <div class="skill">
+          <img src="html_finalprojimages/mysql.png" />
+          <h6>MySQL</h6>
+          <p>2 years experience</p>
+        </div>
+
+        <div class="skill">
+          <img src="html_finalprojimages/mongDB.png" />
+          <h6>MongoDB</h6>
+          <p>2 years experience</p>
+        </div>
+
+        <div class="skill">
+          <img src="html_finalprojimages/git.png" />
+          <h6>Git</h6>
+          <p>4.5 years experience</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>Projects</h2>
+      <div style="clear: both"></div>
+
+      <div id="projects-container" class="projects-container">
+        <div class="project-card">
+          <h3>Whiteboard</h3>
+          <ul>
+            <li>
+              Worked on socket-based communication using Socket.IO and optimized
+              payload compression with the pako npm package, resulting in a 50%
+              improvement in data transfer efficiency.
+            </li>
+            <li>
+              Optimized a data migration task, reducing execution time by 75
+              percent.
+            </li>
+            <li>
+              Developed an algorithm to break down immense data, collaborated
+              with cross-functional teams to create User Flow Diagrams.
+            </li>
+            <li>
+              Automated tests using Jest and achieved code coverage of more than
+              80 percent.
+            </li>
+            <li>
+              Designed multiple whiteboard pages, achieving 8/10 user
+              satisfaction.
+            </li>
+            <li>
+              Worked on asynchronous image uploads and optimization for
+              different zoom levels, improving whiteboard load time by 80% for
+              data intensive boards.
+            </li>
+          </ul>
+        </div>
+        <div class="project-card">
+          <h3>CollabNote</h3>
+          <ul>
+            <li>
+              Architected a real-time collaborative note-taking platform using
+              Firebase Firestore and WebRTC for peer-to-peer syncing.
+            </li>
+            <li>
+              Refactored client-side state management using Zustand, which
+              reduced render times and resolved update race conditions.
+            </li>
+            <li>
+              Built a markdown parser with custom extensions to support math
+              expressions and diagram rendering via Mermaid.js.
+            </li>
+            <li>
+              Implemented granular access control and presence tracking,
+              improving session stability for concurrent users by 60%.
+            </li>
+            <li>
+              Integrated end-to-end encryption using Web Crypto API to secure
+              shared notes.
+            </li>
+          </ul>
+        </div>
+
+        <div class="project-card">
+          <h3>DevTracker</h3>
+          <ul>
+            <li>
+              Led development of a developer activity tracking dashboard
+              leveraging GitHub webhooks, cron jobs, and PostgreSQL analytics
+              views.
+            </li>
+            <li>
+              Created a custom time-series data pipeline for real-time graph
+              rendering using Chart.js and optimized queries with indexed
+              materialized views.
+            </li>
+            <li>
+              Designed a scalable notification system with RabbitMQ and Node.js
+              workers, reducing latency for critical alerts.
+            </li>
+            <li>
+              Deployed the system with Docker Compose and monitored via
+              Prometheus and Grafana dashboards.
+            </li>
+            <li>
+              Achieved 95% user retention in early-access beta through intuitive
+              UI/UX enhancements and responsiveness.
+            </li>
+          </ul>
+        </div>
+
+        <div class="project-card">
+          <h3>Finviz Pro Lite</h3>
+          <ul>
+            <li>
+              Engineered a microservice-based stock analysis tool using Node.js,
+              Redis for caching, and Alpaca/Polygon APIs for real-time trading
+              data.
+            </li>
+            <li>
+              Optimized financial computation algorithms by parallelizing
+              processing with Worker Threads, reducing CPU load by 40%.
+            </li>
+            <li>
+              Built a markdown parser with custom extensions to support math
+              expressions and diagram rendering via Mermaid.js.
+            </li>
+            <li>
+              Used Tailwind CSS and D3.js to design interactive charts and
+              responsive portfolio summaries.
+            </li>
+            <li>
+              Implemented role-based access control and audit logging for
+              enterprise-grade security compliance.
+            </li>
+          </ul>
+        </div>
+
+        <hr />
+      </div>
+    </section>
+    <div style="clear: both"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear: both"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Dan is an exceptionally fast learner with an analytical mindset that
+          makes him adept at mastering complex technical subjects, particularly
+          in backend and distributed systems. He consistently demonstrates a
+          strong work ethic and brings an energetic, solutions-driven approach
+          to every challenge. Dan is also a proactive team player who fosters
+          collaboration, brings clarity to ambiguity, and frequently drives
+          discussions that move projects forward.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Dan has a remarkable ability to break down complex problems and find
+          elegant, scalable solutions. He is highly dependable and always
+          delivers high-quality work ahead of deadlines. His frontend skills are
+          top-notch, and he's equally comfortable working with backend services.
+          Dan is an excellent communicator and often steps up to mentor junior
+          developers and lead product demos. His proactive attitude and genuine
+          enthusiasm for technology make him a standout team member.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Dan brings a strong sense of ownership and discipline to any project
+          he is part of. He has an eye for detail, writes clean, maintainable
+          code, and is always willing to go the extra mile to ensure a
+          successful release. Dan is thoughtful in code reviews, contributes
+          meaningfully to team discussions, and constantly seeks to improve both
+          himself and the systems he works on. His calm demeanor and steady
+          leadership style make him a pillar of any engineering team.
+          organisation!
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>
+          <input type="text" placeholder="Name (Optional)" /> <br />
+          <textarea
+            id="new_recommendation"
+            cols="500"
+            rows="10"
+            placeholder="Message"
+          ></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">
+              Submit
+            </button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="white"
+          width="63px"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+          />
+        </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg" />
+      <h3>Thank you for leaving a recommendation</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
